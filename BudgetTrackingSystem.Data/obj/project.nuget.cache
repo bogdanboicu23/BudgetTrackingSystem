@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "5xad0R/hPgc=",
+  "success": true,
+  "projectFilePath": "/Users/bogdanboicu/Desktop/Proiecte/Angular/BudgetTrackingSystem/BudgetTrackingSystem.Data/BudgetTrackingSystem.Data.csproj",
+  "expectedPackageFiles": [
+    "/Users/bogdanboicu/.nuget/packages/microsoft.netcore.app.ref/8.0.12/microsoft.netcore.app.ref.8.0.12.nupkg.sha512",
+    "/Users/bogdanboicu/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.12/microsoft.aspnetcore.app.ref.8.0.12.nupkg.sha512"
+  ],
+  "logs": []
+}
