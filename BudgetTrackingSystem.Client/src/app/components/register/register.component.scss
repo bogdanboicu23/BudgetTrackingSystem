@@ -1,0 +1,92 @@
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  padding: 20px;
+}
+
+.register-card {
+  width: 100%;
+  max-width: 450px;
+  padding: 20px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  
+  mat-card-header {
+    text-align: center;
+    margin-bottom: 30px;
+    
+    mat-card-title {
+      font-size: 28px;
+      font-weight: 500;
+      margin-bottom: 10px;
+    }
+    
+    mat-card-subtitle {
+      font-size: 16px;
+      color: rgba(0, 0, 0, 0.6);
+    }
+  }
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.submit-button {
+  height: 48px;
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 10px;
+  position: relative;
+  
+  .spinner {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+.login-link {
+  margin: 0;
+  font-size: 14px;
+  
+  a {
+    font-weight: 500;
+    text-decoration: none;
+  }
+}
+
+mat-form-field {
+  .mat-mdc-form-field-subscript-wrapper {
+    margin-top: 4px;
+  }
+}
+
+::ng-deep {
+  .success-snackbar {
+    background: #4caf50;
+    color: white;
+    
+    .mat-mdc-button.mat-mdc-snack-bar-action {
+      color: white;
+    }
+  }
+  
+  .error-snackbar {
+    background: #f44336;
+    color: white;
+    
+    .mat-mdc-button.mat-mdc-snack-bar-action {
+      color: white;
+    }
+  }
+}
